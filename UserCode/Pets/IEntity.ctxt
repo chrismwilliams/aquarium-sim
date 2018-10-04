@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IEntity
+comment0.text=\r\n\ IEntity\ Interface\:\ defines\ the\ behaviour\ of\ the\ Entity\ class\ that\ contains\ both\ the\ token\ and\ the\ behaviour\ within\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=IToken\ getToken()
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ to\ get\ the\ instance\ of\ the\ token\ held\ in\ the\ entity\ class\r\n\ \r\n\ @return\ \ IToken\ \ \ the\ instance\ of\ the\ IToken\ the\ entity\ contains\r\n\ \r\n
+comment2.params=
+comment2.target=UserCode.Behaviours.IBehaviour\ getBehaviour()
+comment2.text=\r\n\ \r\n\ METHOD\:\ used\ to\ get\ the\ instance\ of\ the\ behaviour\ held\ in\ the\ entity\ class\r\n\ \r\n\ @return\ \ IBehaviour\ \ \ the\ instance\ of\ the\ IBehaviour\ the\ entity\ contains\r\n\ \r\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ update\ the\ behaviour\ update\ method\r\n\ \r\n
+numComments=4

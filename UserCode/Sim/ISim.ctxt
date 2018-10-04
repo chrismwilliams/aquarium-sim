@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ISim
+comment0.text=\r\n\ ISim\ defines\ the\ interface\ for\ the\ class\ that\ runs\ the\ simulation\ each\ frame\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=void\ run()
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ to\ start\ the\ Simulation\ and\ update\ the\ world\r\n\ \r\n
+numComments=2

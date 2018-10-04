@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=WorldBoundsManager
+comment0.text=\r\n\ WorldBoundsManger\ defines\ the\ behaviour\ of\ a\ class\ that\ detects\ if\ any\ of\ the\ IEntity's\ have\ left\ the\ aquarium\r\n\ on\ the\ x\ &\ y\ axis.\ If\ they\ have\ the\ IEntity\ is\ asked\ to\ be\ removed\ using\ the\ IEntityManager\ removeEntity\ method\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=_e
+comment1.target=WorldBoundsManager(IEntityListManager)
+comment1.text=\r\n\ @Deprecated\r\n\ Constructor\ for\ objects\ of\ class\ WorldBoundsManager,\ used\ only\ for\ testing\r\n\ \r\n\ @param\ \ \ _e\ \ \ the\ IEntityListManager\ that\ adds\ and\ removes\ IEntities\ from\ the\ simulation\r\n\ \r\n
+comment2.params=_e\ _s
+comment2.target=WorldBoundsManager(IEntityListManager,\ ISoundManager)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ WorldBoundsManger\r\n\ \r\n\ @param\ \ \ _e\ \ \ the\ IEntityListManager\ that\ adds\ and\ removes\ IEntities\ from\ the\ simulation\r\n\ @param\ \ \ _s\ \ \ the\ ISoundsManager\ implementation\ that\ plays\ sounds,\ used\ for\ playing\ the\ pop\ audio\r\n\ \r\n
+comment3.params=_entities
+comment3.target=void\ checkEntities(java.util.List)
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ check\ if\ any\ of\ the\ IEntity's\ are\ greater\ than\ or\ less\ than\ the\ _min\ &/or\ _max\ fields\ for\ the\ x\ and\ y\ axis\r\n\ \r\n\ @param\ \ \ _entities\ \ \ an\ array\ List\ of\ IEntity's\r\n\ \r\n
+comment4.params=
+comment4.target=void\ playSound()
+comment4.text=\r\n\ \r\n\ \ METHOD\:\ used\ to\ play\ a\ pop\ sound\ by\ calling\ the\ _soundManager\ playSound\ method\ with\ the\ path\ to\ the\ sound\r\n\ \r\n
+numComments=5

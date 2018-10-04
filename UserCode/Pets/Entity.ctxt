@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Entity
+comment0.text=\r\n\ Entity\:\ A\ class\ that\ contains\ both\ the\ token\ and\ the\ behaviour\ of\ the\ pet.\ Class\ is\ used\ to\ access\ both\ elements\r\n\ and\ by\ the\ manager\ to\ update\ the\ the\ behaviours.\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=token\ behaviour
+comment1.target=Entity(IToken,\ UserCode.Behaviours.IBehaviour)
+comment1.text=\r\n\ \r\n\ Constructor\ for\ objects\ of\ class\ Entity\r\n\ \r\n\ @param\ \ \ token\ \ \ the\ token\ to\ be\ stored\ in\ the\ class\r\n\ @param\ \ \ behaviour\ \ \ the\ behaviour\ to\ be\ stored\ in\ the\ class\r\n\ \r\n
+comment2.params=
+comment2.target=IToken\ getToken()
+comment2.text=\r\n\ \r\n\ METHOD\:\ used\ to\ get\ the\ instance\ of\ the\ token\ held\ in\ the\ _token\ field\r\n\ \r\n\ @return\ \ _token\ \ \ the\ instance\ of\ the\ IToken\ the\ entity\ contains\r\n\ \r\n
+comment3.params=
+comment3.target=UserCode.Behaviours.IBehaviour\ getBehaviour()
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ get\ the\ instance\ of\ the\ behaviour\ held\ in\ the\ _behaviour\ field\r\n\ \r\n\ @return\ \ _behaviour\ \ \ the\ instance\ of\ the\ IBehaviour\ the\ entity\ contains\r\n\ \r\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\r\n\ \r\n\ METHOD\:\ used\ to\ call\ the\ update\ method\ within\ the\ _behaviour\ field\ to\ update\ the\ behaviour\ of\ the\ pets\r\n\ \r\n
+numComments=5

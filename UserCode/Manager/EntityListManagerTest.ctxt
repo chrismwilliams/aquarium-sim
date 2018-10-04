@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=EntityListManagerTest
+comment0.text=\r\n\ The\ test\ class\ EntityListManagerTest\ for\ testing\ the\ production\ class\ EntityListManager.\r\n\r\n\ @author\ \ Chris\ Williams\r\n\ @version\ 3.0\r\n\ \r\n\ Test\ Conditions\:\r\n\ \r\n\ 1)\ Construction\ (default)\:\ all\ fields\ are\ initialised\ as\ expected\ -\ do\ once\ via\ object\ bench.\r\n\ 2)\ checkEntities()\:\ check\ that\ the\ method\ removes\ IEntity's\ to\ the\ List\ passed\r\n\ \r\n
+comment1.params=
+comment1.target=EntityListManagerTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ EntityListManagerTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testCondition2()
+comment4.text=\r\n\ checkEntities()\:\ check\ that\ the\ method\ removes\ IEntity's\ to\ the\ List\ passed\r\n\ \r\n
+numComments=5

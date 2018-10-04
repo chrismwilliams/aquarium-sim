@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=TokenFactory
+comment0.text=\r\n\ TokenFactory\ defines\ the\ behaviour\ of\ a\ factory\ that\ creates\ and\ returns\ an\ IToken\ with\ an\ image\ based\ on\ the\ String\r\n\ value\ passed,\ the\ implementation\ of\ the\ ITokenFactory\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=TokenFactory()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ BehaviourFactory\r\n
+comment2.params=_name
+comment2.target=UserCode.Pets.IToken\ getToken(java.lang.String)
+comment2.text=\r\n\ \r\n\ METHOD\:\ this\ method\ returns\ an\ instance\ of\ IToken\ based\ on\ the\ param\ of\ _name.\ This\ is\ checked\ against\ know\ pets,\r\n\ otherwise\ it\ will\ try\ to\ create\ a\ new\ IToken\ with\ the\ String\ directly\r\n\ \r\n\ @param\ \ \ _name\ \ \ the\ name\ of\ a\ known\ pet\ or\ texture\ path\ (texture\ path\ must\ be\ within\ the\ javaFish\ folder)\ \r\n\ \r\n\ @return\ \ IToken\ \ \ the\ IToken\ which\ has\ been\ constructed\ with\ an\ image\ based\ on\ the\ param\r\n\ \r\n
+numComments=3

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SoundManager
+comment0.text=\r\n\ SoundManager\ class\ used\ to\ play\ audio\ within\ the\ simulation\r\n\ \r\n\ @author\ Chris\ Williams\r\n\ @version\ 1.5\r\n
+comment1.params=
+comment1.target=SoundManager()
+comment1.text=\r\n\ DEFAULT\ Constructor\ for\ objects\ of\ class\ SoundManager\ used\ only\ for\ testing\ purposes\r\n\ \r\n
+comment2.params=_w
+comment2.target=SoundManager(env3d.Env)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ SoundManager\r\n\ \r\n\ @param\ \ \ _w\ \ \ the\ world\ reference\ required\ to\ play\ sounds\ in\ the\ simulation\r\n\ \r\n
+comment3.params=_audio
+comment3.target=void\ playSound(java.lang.String)
+comment3.text=\r\n\ METHOD\:\ used\ to\ play\ the\ sound\ passed.\ Throws\ an\ ArgumentPathDoesNotExist\ is\ the\ filepath\ to\ the\ audio\ cannot\ be\ found\r\n\ \r\n\ @param\ \ _audio\ \ \ the\ url\ string\ of\ the\ audio's\ location\r\n
+numComments=4

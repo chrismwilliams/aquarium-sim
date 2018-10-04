@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=IObservable
+comment0.text=\r\n\ IObservable\ describes\ the\ methods\ a\ concrete\ implementation\ should\ include\ to\ become\ an\ IObservable\ and\ how\ an\r\n\ IObserver\ will\ access\ the\ concrete\ implementation\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=_o
+comment1.target=void\ addObserver(IObserver)
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ to\ pass\ a\ reference\ to\ an\ IObserver\ concrete\ class\ which\ should\ be\ stored\ internally.\ This\ will\ then\ be\ notified\r\n\ once\ an\ action/effect\ is\ detected\r\n\ \r\n\ @param\ \ \ _o\ \ \ the\ IObserver\ class\ to\ be\ notified\r\n\ \r\n
+comment2.params=_o
+comment2.target=void\ removeObserver(IObserver)
+comment2.text=\r\n\ \r\n\ METHOD\:\ used\ to\ pass\ a\ reference\ of\ the\ IObserver\ to\ remove\ itself\ from\ being\ alerted\ when\ an\ effect/action\ occurs\r\n\ \r\n\ @param\ \ \ _o\ \ \ the\ reference\ to\ the\ IObserver\ that\ should\ be\ removed\r\n\ \r\n
+comment3.params=
+comment3.target=void\ notifyObservers()
+comment3.text=\r\n\ \r\n\ METHOD\:\ \ used\ to\ notify\ all\ IObserver's\ of\ the\ event\ it\ is\ subscribed\ to.\ This\ method\ should\ update\ all\ IObservers\ that\ have\ been\r\n\ added\ internally\r\n\ \r\n
+comment4.params=
+comment4.target=double[]\ getUpdate()
+comment4.text=\r\n\ \r\n\ METHOD\:\ used\ be\ the\ IObserver\ to\ access\ the\ array\ of\ doubles\ the\ action\ occurred\ at.\ This\ method\ should\ be\ used\ by\ an\ IObserver\ once\ it\r\n\ has\ called\ using\ the\ notifyObserver\ method\r\n\ \r\n\ @return\ \ double[]\ \ \ the\ event\ location\ as\ an\ array\ of\ doubles\r\n\ \r\n
+comment5.params=
+comment5.target=IObserver\ getObserver()
+comment5.text=\r\n\ \r\n\ @Deprecated\r\n\ GETTER\r\n\ METHOD\:\ used\ for\ testing\ purposes\ to\ return\ the\ IObserver\ reference\ a\ concrete\ implementation\ should\ contain\r\n\ \r\n
+numComments=6

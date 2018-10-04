@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IEntityManager
+comment0.text=\r\n\ IEntityManager\ defines\ the\ beheviour\ of\ a\ manager\ of\ IEntities\ within\ the\ aquarium\ simulation.\ \r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=java.util.List\ getEntitiesArray()
+comment1.text=\r\n\ \r\n\ \ METHOD\:\ used\ to\ return\ the\ List\ of\ stored\ Entities\r\n\ \ \r\n\ \ @return\ List\ \ \ the\ List\ of\ IEntity's\ stored\r\n\ \r\n
+comment2.params=
+comment2.target=void\ update()
+comment2.text=\r\n\ \r\n\ METHOD\:\ used\ to\ update\ all\ the\ IEntity's\ the\ List\ contains\ each\ frame\r\n\ \r\n
+numComments=3

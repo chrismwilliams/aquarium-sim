@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=_token
+comment0.target=JavaFish(IToken)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ JavaFish\r\n\ \r\n\ @param\ \ \ _token\ \ \ the\ token\ of\ the\ JavaFish\ that\ contains\ its\ texture\r\n\ \r\n
+comment1.params=
+comment1.target=void\ generateBubble()
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ to\ ask\ the\ EntityManager\ for\ a\ new\ bubble\ randomly\ between\ 3\ to\ 7\ seconds\ apart.\ This\ method\ updates\ the\ requireManager\r\n\ field\ to\ true\ which\ the\ EntityManager\ checks\r\n\ \r\n
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ moveHorizontal()
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ increment\ the\ _x\ field\ based\ on\ the\ 'pets'\ location\ within\ the\ aquarium.\ The\ method\ will\ check\r\n\ if\ the\ JavaFish\ is\ within\ the\ aquarium,\ otherwise\ it\ will\ turn\ the\ JavaFish\ around\ and\ flip\ the\ Y\ orientation\r\n\ \r\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\r\n\ @Override\r\n\ METHOD\:\ used\ to\ override\ the\ behaviour\ base\ class\ and\ call\ its\ unique\ methods\ which\ updates\ it\ position\ within\ the\r\n\ aquarium\r\n\ \r\n
+numComments=5

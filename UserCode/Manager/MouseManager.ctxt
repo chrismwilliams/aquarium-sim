@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=MouseManager
+comment0.text=\r\n\ MouseManager\ defines\ the\ behaviour\ of\ a\ class\ that\ watches\ an\ IObserver\ mouse\ click\ handler\ implementation.\r\n\ This\ class\ implements\ the\ IObserver\ interface\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=MouseManager()
+comment1.text=\r\n\ @Deprecated\r\n\ Constructor\ for\ objects\ of\ class\ MouseManager,\ used\ only\ for\ testing\r\n\ \r\n
+comment2.params=_e
+comment2.target=MouseManager(IEntityListManager)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ MouseManager\r\n\ \r\n\ @param\ \ \ _e\ \ \ the\ IEntityListManager\ class\ that\ is\ called\ to\ add\ the\ FishFood\ token\ to\ the\ aquarium\r\n\ \r\n
+comment3.params=obj
+comment3.target=void\ observeObj(UserCode.Behaviours.IObservable)
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ add\ the\ IObservable\ mouse\ click\ handler\ which\ this\ class\ will\ 'watch'\ over\ and\ be\ alerted\ by\r\n\ the\ IObservable\ implementation\r\n\ \r\n\ @param\ \ \ obj\ \ \ the\ IObservable\ class\ that\ this\ class\ will\ watch\r\n\ \r\n
+comment4.params=obj
+comment4.target=void\ endObserving(UserCode.Behaviours.IObservable)
+comment4.text=\r\n\ \r\n\ METHOD\:\ used\ to\ stop\ observing\ the\ IObservable\ initialised\ in\ the\ _clickHandler\ field.\ \r\n\ This\ method\ assigns\ the\ _clickHandler\ field\ to\ null\r\n\ \r\n\ @param\ \ \ obj\ \ \ the\ IObservable\ class\r\n\ \r\n
+comment5.params=_mPos
+comment5.target=void\ callEntityManager(double[])
+comment5.text=\r\n\ \r\n\ METHOD\:\ used\ to\ call\ the\ IEntityManager\ addEntity\ method\ to\ request\ to\ add\ a\ new\ FishFood\ entity\ to\ the\ world\ at\ the\ x,y\ position\ passed\r\n\ \r\n\ @param\ \ \ _mPos\ \ \ the\ x\ and\ y\ position\ the\ FishFood\ entity\ should\ be\ placed\ at\r\n\ \r\n
+comment6.params=obj
+comment6.target=void\ update(UserCode.Behaviours.IObservable)
+comment6.text=\r\n\ \r\n\ METHOD\:\ used\ by\ the\ IObservable\ class\ to\ inform\ this\ class\ that\ an\ event\ occurred.\ This\ method\ will\ then\r\n\ call\ getUpdate()\ method\ of\ IObservable\ to\ retrieve\ the\ mouse\ click\ x\ &\ y\ position\ and\ pass\ that\ to\ the\ callEntityManager\ method\r\n\ \r\n\ @param\ \ \ obj\ \ \ the\ object\ that\ has\ an\ update\r\n\ \r\n
+comment7.params=
+comment7.target=java.util.List\ rtnSubjects()
+comment7.text=\r\n\ @Deprecated\r\n\ METHOD\:\ used\ for\ testing\ another\ production\ class.\ This\ method\ shouldn't\ be\ used\r\n\ \r\n
+numComments=8

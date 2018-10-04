@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Bubble
+comment0.text=\r\n\ Bubble\ class\ defines\ the\ properties\ and\ methods\ of\ the\ 'pet'\ Bubble\ that\ onced\ placed\ in\ the\ aquarium\ will\ continue\ to\ rise\ until\ it\ reaches\r\n\ the\ value\ set\ in\ the\ field\ _max\r\n\ \r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=_token\ posX\ posY
+comment1.target=Bubble(IToken,\ double,\ double)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bubble\r\n\ \r\n\ @param\ \ \ _token\ \ \ the\ token\ of\ the\ class\ that\ contains\ its\ texture\ and\ model\r\n\ @param\ \ \ posX\ \ \ the\ x\ position\ of\ the\ class\r\n\ @param\ \ \ posY\ \ \ the\ y\ position\ of\ the\ class\r\n\ @param\ \ \ max\ \ \ the\ maximum\ value\ the\ class\ is\ allowed\ to\ reach\ vertically\ before\ isActive\ is\ set\ to\ false\ and\ internally\ no\ longer\ updates\r\n\ its\ position\r\n
+comment2.params=_components
+comment2.target=void\ Initialise(java.util.List)
+comment2.text=\r\n\ \r\n\ METHOD\:\ used\ to\ initialise\ all\ the\ IComponents\ a\ Bubble\ requires\ within\ an\ aquarium\r\n\ \r\n\ @param\ \ \ _components\ \ \ the\ List\ of\ IComponents\ for\ a\ Piranha\ in\ the\ simulation\ \r\n\ \r\n
+comment3.params=xpos\ ypos
+comment3.target=void\ setPosition(double,\ double)
+comment3.text=\r\n\ @Override\r\n\ METHOD\:\ to\ override\ the\ behaviour\ base\ class\ to\ set\ the\ position\ of\ the\ pet\ assigning\ the\ _x\ and\ _y\ fields\r\n\ \r\n\ @param\ \ \ xpos\ \ \ the\ x\ position\ of\ the\ bubble\r\n\ @param\ \ \ ypos\ \ \ the\ y\ position\ of\ the\ bubble\r\n\ \r\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\r\n\ @Override\r\n\ METHOD\ -\ update\ method\ used\ to\ call\ the\ unique\ methods\ for\ the\ bubble\ and\ update\ its\ position\ within\ the\ aquarium\r\n\ Method\ overrides\ the\ base\ behaviour\ class\r\n\ \r\n
+numComments=5

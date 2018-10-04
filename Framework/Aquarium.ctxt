@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Aquarium
+comment0.text=\n\ This\ is\ an\ aquarium-style\ 3D\ 'world'.\n\ \n\ @author\ Marc\ Price\ \n\ @version\ 0.1\n
+comment1.params=x\ y\ z
+comment1.target=Aquarium(double,\ double,\ double)
+comment1.text=\n\ Constructor\n\n\ @param\ \ x\ \ \ width\ of\ type\ double\n\ @param\ \ y\ \ \ height\ of\ type\ double\n\ @param\ \ z\ \ \ depth\ of\ type\ double\n
+numComments=2

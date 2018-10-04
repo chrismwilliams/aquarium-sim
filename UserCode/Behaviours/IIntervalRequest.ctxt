@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IIntervalRequest
+comment0.text=\r\n\ IIntervalRequest\ defines\ how\ a\ concrete\ implemention\ should\ behave\ in\ order\ to\ start\ and\ stop\ a\ request\ at\ set/random\ intervals.\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=void\ generateRequest()
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ by\ a\ concrete\ class\ to\ start\ its\ internal\ mechanism\ to\ start\ generating\ interval\ requests\r\n\ \r\n
+comment2.params=
+comment2.target=void\ stopRequest()
+comment2.text=\r\n\ \r\n\ METHOD\:\ used\ by\ a\ concrete\ class\ to\ stop\ generating\ interval\ request,\ either\ calling\ itself\ or\ another\ parent\ class\r\n\ \r\n
+comment3.params=
+comment3.target=java.util.concurrent.ScheduledExecutorService\ getExecutor()
+comment3.text=\r\n\ @Deprecated\r\n\ METHOD\:\ used\ for\ testing\ to\ return\ the\ executor\ field\r\n\ \r\n\ @return\ \ ScheduledExecutorService\ \ \ the\ executor\ set\r\n\ \r\n
+comment4.params=
+comment4.target=java.lang.Runnable\ getRunnable()
+comment4.text=\r\n\ @Deprecated\r\n\ METHOD\:\ used\ for\ testing\ to\ return\ the\ _runnable\ field\r\n\ \r\n\ @return\ \ Runnable\ \ \ the\ runnable\ field\ set\r\n\ \r\n
+numComments=5

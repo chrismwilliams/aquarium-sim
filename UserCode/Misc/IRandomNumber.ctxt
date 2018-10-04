@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IRandomNumber
+comment0.text=\r\n\ IRandomNumber\ interface\ defines\ a\ method\ a\ concrete\ implemention\ of\ RandomNumber\ should\ include\ and\ how\ it\ should\ be\ accessed\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=min\ max
+comment1.target=double\ generateNumber(double,\ double)
+comment1.text=\r\n\ \r\n\ METHOD\:\ Generate\ a\ random\ double\ between\ the\ minimum\ and\ maximum\ values\ provided\ as\ arguments\ which\ will\ be\ returned\ as\ a\ double.\r\n\r\n\ @param\ \ \ min\ \ \ \ \ minimum\ value\ of\ the\ random\ number\ required,\ of\ type\ double\r\n\ @param\ \ \ max\ \ \ \ \ maximum\ value\ of\ the\ random\ number\ required,\ of\ type\ double\r\n\ \r\n\ @return\ \ returns\ a\ double\ between\ the\ numbers\ passed\r\n\ \r\n
+numComments=2

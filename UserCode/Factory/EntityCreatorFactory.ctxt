@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=EntityCreatorFactory
+comment0.text=\r\n\ EntityCreatorFactory\:\ A\ factory\ to\ create\ the\ different\ types\ of\ pets\ that\ can\ be\ used\ within\ the\ aquarium.\ This\ class\r\n\ also\ creates\ the\ ComponentFactory\ and\ TokenFactory\ in\ order\ to\ create\ a\ concrete\ implementation\ of\ an\ IEntity\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=EntityCreatorFactory()
+comment1.text=\r\n\ @Deprecated\r\n\ Constructor\ for\ objects\ of\ class\ EntityCreatorFactory,\ used\ only\ for\ testing\r\n\ \r\n\ \r\n
+comment2.params=bubbleRequestObserver
+comment2.target=EntityCreatorFactory(UserCode.Behaviours.IObserver)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ EntityCreatorFactory\r\n\ \r\n\ @param\ \ \ bubbleRequestObserver\ \ \ the\ IObserver\ class\ required\ to\ be\ used\ by\ the\ IComponentFactory\ when\ creating\ RequestBubble\ classes\r\n\ \r\n
+comment3.params=entityType\ coords
+comment3.target=UserCode.Pets.IEntity\ getEntity(java.lang.String,\ double[])
+comment3.text=\r\n\ METHOD\:\ getEntity\ -\ returns\ an\ IEntity\ consisting\ on\ an\ IBehaviour\ and\ IToken\ to\ the\ caller\ based\ on\ the\ String\ passed\r\n\ \r\n\ @param\ \ \ entityType\ \ \ name\ of\ the\ entity\ to\ be\ returned\r\n\ @param\ \ \ ...coords\ \ \ used\ to\ create\ and\ position\ a\ bubble\ or\ FishFood\ with\ the\ x\ and\ y\ coords\ passed\r\n\ \r\n\ @return\ \ \ \ \ return\ the\ Entity\ based\ on\ the\ parameters\ passed\ \r\n\ \r\n
+comment4.params=token\ behaviour
+comment4.target=UserCode.Pets.IEntity\ createEntity(UserCode.Pets.IToken,\ UserCode.Behaviours.IBehaviour)
+comment4.text=\r\n\ \r\n\ METHOD\:\ create\ a\ new\ Entity\ with\ the\ newly\ created\ token\ and\ behaviour's\ passed\ and\ return\ it\ to\ the\ caller\r\n\ \r\n\ @param\ \ \ IToken\ token\ -\ the\ token\ of\ the\ pet\ with\ the\ texture\ already\ set\r\n\ @param\ \ \ IBehaviour\ behaviour\ -\ the\ behaviour\ of\ the\ pet\r\n\ \r\n\ @return\ \ Entity\ \ \ returns\ the\ created\ entity\ with\ the\ token\ and\ behaviour\ sent\ within\r\n\ \r\n
+comment5.params=_name
+comment5.target=UserCode.Pets.IToken\ getToken(java.lang.String)
+comment5.text=\r\n\ \r\n\ METHOD\:\ used\ to\ call\ the\ _tokenFactory\ and\ request\ an\ IToken\ based\ on\ the\ param\ passed\r\n\ \r\n\ @param\ \ \ _name\ \ \ the\ name\ of\ the\ pet\ required,\ can\ also\ be\ the\ name\ of\ the\ texture\:\ "PiranhaGreen"\r\n\ \r\n
+numComments=6

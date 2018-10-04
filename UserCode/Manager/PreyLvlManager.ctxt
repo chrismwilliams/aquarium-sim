@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=PreyLvlManager
+comment0.text=\r\n\ PreyLvlManager\ defines\ the\ behaviour\ of\ a\ class\ that\ checks\ the\ amount\ of\ pets\ with\ the\ IComponent\ Prey.\ This\r\n\ class\ add\ either\ a\ JavaFish\ or\ JavaSeaHorse\ if\ the\ level\ falls\ below\ the\ field\ _requiredPrey\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=PreyLvlManager()
+comment1.text=\r\n\ @Deprecated\r\n\ Constructor\ for\ objects\ of\ class\ PreyLvlManager,\ used\ only\ for\ testing\r\n
+comment2.params=_e
+comment2.target=PreyLvlManager(IEntityListManager)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ FeedManager\r\n\ \r\n\ @param\ \ \ _e\ \ \ \ the\ IEntityListManager\ that\ adds\ IEntities\ to\ the\ simulation\r\n\ \r\n
+comment3.params=_entities
+comment3.target=void\ checkEntities(java.util.List)
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ check\ the\ amount\ of\ 'prey'\ pets\ within\ the\ aquarium.\ IF\ the\ level\ falls\ below\ 15,\ JavaFish\ &\ JavaSeaHorse's\ will\ be\ added\r\n\ to\ the\ simulation\r\n\ \r\n\ @param\ \ \ _entities\ \ \ an\ array\ List\ of\ IEntity's\ that\ contain\ the\ IComponents,\ within\ the\ IBehaviour\r\n\ \r\n
+comment4.params=amount
+comment4.target=void\ topUpPreyLvls(int)
+comment4.text=\r\n\ \r\n\ METHOD\:\ used\ to\ add\ either\ JavaFish\ or\ JavaSeaHorse's\ to\ the\ aquarium\ based\ on\ the\ amount\ param.\r\n\ \r\n\ @param\ \ \ amount\ \ \ the\ amount\ of\ Prey\ Pets\ that\ will\ be\ added\ to\ the\ aquarium\r\n\ \r\n
+numComments=5

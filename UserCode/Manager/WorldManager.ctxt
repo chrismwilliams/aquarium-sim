@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WorldManager
+comment0.text=\r\n\ WorldManager\ defines\ the\ class\ which\ manages\ the\ world\ by\ added\ and\ removing\ objects\ from\ the\ simulation.\ This\ class\r\n\ contains\ two\ methods\ that\ add\ and\ remove\ an\ IToken\ from\ the\ aquarium\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=world
+comment1.target=WorldManager(env3d.Env)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ WorldManager\r\n
+comment2.params=t
+comment2.target=void\ addToken(UserCode.Pets.IToken)
+comment2.text=\r\n\ \r\n\ METHOD\:\ Add\ an\ IToken\ to\ the\ _world\ which\ will\ be\ displayed\ on\ screen\r\n\ \r\n\ @param\ \ \ token\ -\ IToken\ to\ be\ added\ to\ the\ _world\r\n\ \r\n
+comment3.params=t
+comment3.target=void\ removeToken(UserCode.Pets.IToken)
+comment3.text=\r\n\ \r\n\ METHOD\:\ Used\ to\ remove\ the\ IToken\ from\ the\ world\r\n\ \r\n\ @param\ \ \ t\ \ \ the\ IToken\ to\ be\ removed\ from\ the\ aquarium\r\n\ \r\n
+numComments=4

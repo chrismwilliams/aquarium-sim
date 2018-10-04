@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IWorldInit
+comment0.text=\r\n\ IWorldInit\ interface\ defines\ the\ behaviour\ of\ a\ class\ that\ starts\ the\ top\ level\ simulation\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=void\ startSim()
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ is\ used\ to\ start\ the\ Simulation\ class\r\n\ \r\n
+numComments=2

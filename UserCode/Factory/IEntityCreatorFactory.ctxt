@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IEntityCreatorFactory
+comment0.text=\r\n\ IEntityCreatorFactory\ defines\ the\ behaviour\ a\ concrete\ implementation\ should\ include\ that\ creates\ and\ returns\ IEntity's\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=entityType\ coords
+comment1.target=UserCode.Pets.IEntity\ getEntity(java.lang.String,\ double[])
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ to\ return\ a\ concrete\ implementation\ of\ an\ IEntity\ based\ on\ the\ String\ provided.\ The\ coords\ param\ is\ used\r\n\ by\ both\ the\ bubble\ and\ fishfood\ classes\r\n\ \r\n\ @param\ \ \ entityType\ \ \ the\ IEntityClass\ requested\ as\ a\ String\r\n\ @param\ \ \ coords\ \ \ \ the\ x\ and\ y\ position\ for\ the\ bubble/fishfood\ required\r\n\ \r\n
+numComments=2

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IComponentFactory
+comment0.text=\r\n\ IComponentFactory\ defines\ the\ behaviour\ a\ concrete\ class\ that\ creates\ IComponent's\ should\ implement.\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=_c
+comment1.target=java.util.List\ getComponent(java.lang.String[])
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ to\ return\ a\ List\ of\ IComponents\ based\ on\ the\ String\ array\ param\r\n\ \r\n\ @param\ \ \ _c\ \ \ an\ array\ of\ Strings\ of\ all\ the\ IComponents\ required\r\n\ \r\n\ @return\ \ \ List\ \ \ all\ the\ IComponents\ created\r\n\ \r\n
+numComments=2

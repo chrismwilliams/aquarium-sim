@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=IEntityListManager
+comment0.text=\r\n\ IEntityListManager\ defines\ the\ behaviour\ of\ a\ class\ that\ will\ add\ and\ remove\ IEntites\ from\ the\ simulation\ based\ on\ the\ parameters\ provided.\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=factory\ _wManager
+comment1.target=void\ Initialise(UserCode.Factory.IEntityCreatorFactory,\ IWorldManager)
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ to\ initialise\ the\ concrete\ implementation\ with\ a\ IEntityCreatorFactory\ and\ IWorldManager\r\n\ \r\n\ @param\ \ \ factory\ \ \ a\ concrete\ implementation\ that\ can\ create\ and\ return\ IEntities\r\n\ @param\ \ \ _wManager\ \ \ a\ concrete\ implementation\ that\ can\ add\ IToken\ to\ the\ aquarium\r\n\ \r\n
+comment2.params=_type\ coords
+comment2.target=void\ addEntity(java.lang.String,\ double[])
+comment2.text=\r\n\ \r\n\ METHOD\:\ used\ to\ add\ entities\ based\ on\ the\ String\ provided.\ The\ coords\ param\ is\ used\ to\ play\ certain\ types\ of\ pets\r\n\ within\ the\ aquarium\r\n\ \r\n\ @param\ \ \ _type\ \ \ the\ name\ of\ the\ pet\ required\ as\ a\ String\r\n\ @parma\ \ \ coords\ \ \ the\ position\ to\ place\ the\ pet's\ 'Bubble'\ &\ 'FishFood'\r\n\ \r\n
+comment3.params=e
+comment3.target=void\ removeEntity(UserCode.Pets.IEntity)
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ remove\ the\ IEntity\ from\ the\ world\ based\ on\ the\ parameter\ provided\r\n\ \r\n\ @param\ \ \ e\ \ \ the\ IEntity\ that\ needs\ to\ be\ removed\r\n\ \r\n
+numComments=4

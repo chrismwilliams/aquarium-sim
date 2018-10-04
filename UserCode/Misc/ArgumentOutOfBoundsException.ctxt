@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ArgumentOutOfBoundsException
+comment0.text=\r\n\ ArgumentOutOfBoundsException\:\ used\ to\ catch\ instances\ when\ a\ parameter\ is\ out\ of\ the\ allotted\ ranges\r\n\ \r\n\ @author\ Chris\ Williams\ &\ Marc\ Price\ \r\n\ @version\ 3.0\r\n
+comment1.params=_message
+comment1.target=ArgumentOutOfBoundsException(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ ArgumentOutOfBoundsException\r\n\ \r\n\ @param\ \ \ _message\ \ \ the\ message\ that\ was\ thrown\ which\ details\ the\ reasons\ why\r\n\ \r\n
+numComments=2

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=IComponent
+comment0.text=\r\n\ IComponent\ defines\ how\ a\ component\ should\ act\ and\ the\ main\ methods\ it\ should\ implement\ in\ order\ to\ function\ as\ intended\r\n\ with\ the\ IBehaviour\ pets\ included\ within\ the\ aquarium\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=_b
+comment1.target=void\ Initialise(UserCode.Behaviours.IBehaviour)
+comment1.text=\r\n\ \r\n\ METHOD\:\ Used\ to\ assign\ a\ component\ an\ IBehaviour\r\n\ \r\n\ @param\t_behaviour\ \ \ the\ IBehaviour\ this\ component\ will\ be\ acting\ on\r\n\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ \r\n\ METHOD\:\ \ Used\ to\ return\ the\ unique\ name\ of\ the\ IComponent\r\n\ \r\n\ @return\tthe\ name\ of\ the\ IComponent\ as\ a\ String\r\n\ \r\n
+comment3.params=
+comment3.target=void\ TearDown()
+comment3.text=\r\n\ \r\n\ METHOD\:\ \ Used\ to\ stop\ any\ procedures\ it\ is\ currently\ running\ if\ required\r\n\ \r\n
+comment4.params=
+comment4.target=void\ componentAction()
+comment4.text=\r\n\ \r\n\ METHOD\:\ Used\ by\ the\ concrete\ implementation\ to\ perform\ its\ unique\ action\r\n\ \r\n
+comment5.params=
+comment5.target=void\ update()
+comment5.text=\r\n\ \r\n\ METHOD\:\ Used\ to\ update\ any\ properties\ if\ required\ which\ will\ be\ called\ each\ frame\ by\ the\ IBehaviour.\r\n\ \ \r\n
+numComments=6

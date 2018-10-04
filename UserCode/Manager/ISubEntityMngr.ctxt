@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ISubEntityMngr
+comment0.text=\r\n\ ISubEntityMngr\ defines\ the\ behaviour\ of\ classes\ that\ require\ the\ main\ List\ on\ IEntity's\ that\ are\ present\ in\ the\ aquarium\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=_entities
+comment1.target=void\ checkEntities(java.util.List)
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ by\ classes\ to\ perform\ their\ duties\ on\ the\ main\ IEntity\ List\ that\ the\ simulation\ updates\ per\ frame\r\n\ \r\n\ @param\ \ \ _entities\ \ \ the\ List\ array\ which\ contains\ all\ the\ IEntity's\ currently\ in\ the\ aquarium\r\n\ \r\n
+numComments=2

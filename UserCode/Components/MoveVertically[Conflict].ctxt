@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=
+comment0.target=MoveVertically()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ MoveVertical\n
+comment1.params=_b
+comment1.target=void\ Initialise(UserCode.Behaviours.IBehaviour)
+comment1.text=\n\ \n\ METHOD\:\ used\ to\ assign\ the\ field\ _behaviour\ and\ retrieve\ the\ values\ held\ in\ the\ IBehaviour\ \n\ \n\ @param\ \ \ _b\ \ \ the\ IBehaviour\ class\ this\ component\ will\ use\ to\ update\ its\ y\ position\n\ \n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\n\ GETTER\n\ METHOD\:\ used\ to\ return\ the\ name\ of\ this\ component\ which\ is\ held\ in\ the\ _name\ field\n\ \n\ @return\ \ String\ \ \ the\ name\ of\ this\ component\n
+comment3.params=
+comment3.target=void\ TearDown()
+comment3.text=\n\ \n\ METHOD\:\ used\ to\ remove\ all\ references\ to\ the\ IBehaviour\ and\ end\ functionality\n\ \n
+comment4.params=
+comment4.target=void\ changeVector()
+comment4.text=\n\ SETTER\n\ METHOD\:\ used\ to\ change\ the\ _vector\ field\ to\ the\ oppersite\ of\ its\ current\ value\n\ \n
+comment5.params=
+comment5.target=double[]\ getPosition()
+comment5.text=\n\ GETTER\n\ METHOD\:\ used\ to\ retrieve\ the\ positional\ values\ of\ the\ IBehaviour\ held\ in\ the\ _behaviour\ class\ assigned\ in\ Initialise\ method\n\ \n\ @return\ \ a\ double\ array\ of\ the\ x,y\ and\ z\ properties\ of\ the\ IBehaviour\n\ \n
+comment6.params=
+comment6.target=void\ componentAction()
+comment6.text=\n\ \n\ METHOD\ used\ to\ call\ the\ unique\ method\ this\ component\ adds\ to\ the\ IBehaviour.\ This\ method\ calls\ the\ changeVector\ private\n\ method\n\ \n
+comment7.params=
+comment7.target=void\ update()
+comment7.text=\n\ \n\ METHOD\:\ used\ to\ update\ the\ y\ positional\ property\ of\ the\ IBehaviour\ held\ in\ the\ _behaviour\ field\ every\ frame\n\ \n
+numComments=8

@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=IManager
+comment0.text=\r\n\ IManager\ defines\ the\ behaviour\ for\ the\ top\ level\ manager\ required\ to\ run\ an\ aquarium\ simulation.\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=void\ update()
+comment1.text=\r\n\ \r\n\ METHOD\:\ called\ per\ frame\ and\ used\ to\ update\ any\ managers\ that\ require\ updating\r\n\ \r\n
+numComments=2

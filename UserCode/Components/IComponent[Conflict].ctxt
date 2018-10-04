@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=_b
+comment0.target=void\ Initialise(UserCode.Behaviours.IBehaviour)
+comment0.text=\n\ \n\ METHOD\:\ Used\ to\ assign\ a\ component\ an\ IBehaviour\n\ \n\ @param\t_behaviour\ \ \ the\ IBehaviour\ this\ component\ will\ be\ acting\ on\n\ \n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\n\ \n\ METHOD\:\ \ Used\ to\ return\ the\ unique\ name\ of\ the\ IComponent\n\ \n\ @return\tthe\ name\ of\ the\ IComponent\ as\ a\ String\n\ \n
+comment2.params=
+comment2.target=void\ TearDown()
+comment2.text=\n\ \n\ METHOD\:\ \ Used\ to\ stop\ any\ procedures\ it\ is\ currently\ running\ if\ required\n\ \n
+comment3.params=
+comment3.target=void\ componentAction()
+comment3.text=\n\ \n\ METHOD\:\ Used\ by\ the\ concrete\ implementation\ to\ perform\ its\ unique\ action\n\ \n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\n\ \n\ METHOD\:\ Used\ to\ update\ any\ properties\ if\ required\ which\ will\ be\ called\ each\ frame\ by\ the\ IBehaviour.\n\ \ \n
+numComments=5

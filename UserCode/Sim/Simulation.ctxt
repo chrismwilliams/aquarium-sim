@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Simulation
+comment0.text=\r\n\ Simulation\ is\ the\ top-level\ class\ for\ the\ Aquarium\ simulation.\ This\ class\ updates\ the\ IManager\ class\ per\ frame\ whilst\r\n\ listening\ to\ the\ escape\ key\ which\ ends\ the\ simulation.\r\n\ \r\n\ @author\ Chris\ Williams\ &\ Marc\ Price\r\n\ @version\ 3.0\r\n
+comment1.params=core\ world
+comment1.target=Simulation(Framework.Core,\ env3d.Env)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Simulation\ which\ initialises\ the\ aquarium\ simulation\r\n\ \r\n\ @param\ \ \ core\ \ \ the\ initialised\ Core\ class\r\n\ @param\ \ \ world\ \ \ the\ initialised\ Env\ class\r\n\ \r\n
+comment2.params=
+comment2.target=void\ run()
+comment2.text=\r\n\ METHOD\:\ Run\ the\ simulation\ loop.\ \ User\ presses\ escape\ to\ exit.\ This\ should\ only\ be\ accessed\ once\ the\ _world,\ _core\ &\r\n\ _manager\ fields\ are\ initialised\r\n\r\n
+numComments=3

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=JavaFish
+comment0.text=\r\n\ JavaFish\ contains\ all\ the\ behaviour\ and\ methods\ of\ a\ JavaFish\ 'pet'\ to\ be\ used\ within\ the\ aquarium.\ \r\n\ \r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=_token
+comment1.target=JavaFish(IToken)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ JavaFish\r\n\ \r\n\ @param\ \ \ _token\ \ \ the\ token\ of\ the\ JavaFish\ that\ contains\ its\ all\ its\ displayable\ properties\r\n\ \r\n
+comment2.params=_components
+comment2.target=void\ Initialise(java.util.List)
+comment2.text=\r\n\ \r\n\ METHOD\:\ used\ to\ initialise\ all\ the\ IComponents\ a\ JavaFish\ requires\ within\ an\ aquarium\r\n\ \r\n\ @param\ \ \ _components\ \ \ the\ List\ of\ IComponents\ a\ JavaFish\ updates\ in\ the\ simulation\r\n\ \r\n
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ override\ the\ behaviour\ base\ class\ and\ call\ all\ the\ IComponents\ which\ run\ through\ all\ the\ unique\ behaviours\r\n\ of\ a\ JavaFish\r\n\ \r\n
+numComments=4

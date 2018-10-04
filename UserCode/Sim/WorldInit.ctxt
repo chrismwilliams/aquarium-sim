@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=WorldInit
+comment0.text=\r\n\ WorldInit\ defines\ the\ class\ that\ instantiates\ the\ Env3D\ world\ and\ starts\ the\ simulation\ through\ the\ static\ main\ method\r\n\r\n\ @author\ Chris\ Williams\ &\ Marc\ Price\r\n\ @version\ 3.0\r\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\r\n\ Static\ Main\ method\ to\ create\ the\ Core\ and\ World\r\n\r\n\ @param\ \ \ args\ the\ command-line\ arguments\r\n
+comment2.params=
+comment2.target=WorldInit()
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ WorldInit\r\n
+comment3.params=
+comment3.target=void\ startSim()
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ create\ the\ Simulation\ class\ and\ pass\ through\ the\ _core\ and\ _world\ fields.\ This\ method\ then\ calls\ the\r\n\ run\ method\ of\ the\ Simulation\ class\r\n\ \r\n
+numComments=4

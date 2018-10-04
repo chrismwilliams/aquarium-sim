@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=EntityManagerTest
+comment0.text=\r\n\ The\ test\ class\ EntityManagerTest\ for\ testing\ EntityManager.\ Testing\ with\ the\ default\ constructor\ as\ the\ overloaded\ constructor\r\n\ requires\ the\ Simulation\ and\ SoundManager\ as\ dependencies\r\n\r\n\ @author\ \ Chris\ Williams\ &\ Marc\ Price\r\n\ @version\ 3.0\r\n\ \r\n\ Test\ Conditions\:\r\n\ \r\n\ 1\:\ Construction\ (default)\:\ all\ fields\ are\ initialised\ as\ expected\ apart\ from\ the\ fields\ _simCallBack\ and\ _soundManager\ via\ the\ object\ bench\ \r\n\ 2\:\ update()\:\ this\ method\ requires\ all\ the\ ISubEntityMngr's\ to\ be\ constructed\ and\ the\ Env\ world\ created.\ This\ methods\ functionality\ was\ testing\r\n\ by\ running\ the\ simulation\ and\ using\ system\ print\ out's\ within\ this\ method\ and\ many\ of\ the\ sub\ managers\ to\ see\ if\ the\ method\ works\ as\ intended.\r\n\ \r\n
+comment1.params=
+comment1.target=EntityManagerTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ EntityManagerTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+numComments=4

@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=JavaBubbler
+comment0.text=\r\n\ JavaBubbler\ class\ defines\ the\ properties\ and\ methods\ of\ the\ 'pet'\ JavaBubbler\ that\ is\ placed\ in\ the\ aquarium\ to\ emmit\ bubble\r\n\ at\ regular\ intervals.\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=_token
+comment1.target=JavaBubbler(IToken)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ JavaBubbler\r\n\ \r\n\ @param\ \ \ _token\ \ \ the\ token\ of\ the\ Bubbler\ that\ contains\ its\ texture\r\n\ \r\n
+comment2.params=_components
+comment2.target=void\ Initialise(java.util.List)
+comment2.text=\r\n\ \r\n\ METHOD\:\ used\ to\ initialise\ all\ the\ IComponents\ a\ JavaUrchin\ requires\ within\ an\ aquarium\r\n\ \r\n\ @param\ \ \ _components\ \ \ the\ List\ of\ IComponents\ for\ a\ Piranha\ in\ the\ simulation\ \r\n\ \r\n
+comment3.params=
+comment3.target=double[]\ getPosition()
+comment3.text=\r\n\ \r\n\ METHOD\:\ This\ method\ 'alters'\ the\ percieved\ position\ of\ this\ 'pet',\ as\ it\ requests\ a\ bubble\ to\ be\ placed\ at\ the\ mouth\r\n\ of\ the\ bubbler\ image.\r\n\ \r\n\ @return\ \ an\ array[3]\ of\ the\ x,y\ and\ z\ positions.\ The\ x\ and\ y\ positions\ are\ the\ values\ that\ have\ been\ altered\ \ \r\n\ \r\n
+comment4.params=
+comment4.target=void\ update()
+comment4.text=\r\n\ @Override\r\n\ METHOD\:\ used\ to\ override\ the\ behaviour\ base\ class\ as\ the\ bubbler\ isn't\ required\ to\ update\ its\ IComponents\ as\ it\ shouldn't\ move\r\n\ \r\n
+numComments=5

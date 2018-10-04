@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=RequestBubbleObserver
+comment0.text=\r\n\ BubbleObserver\ defines\ the\ behaviour\ of\ a\ class\ that\ watches\ IObservable\ implementations\ to\ be\ notified\ when\ a\ bubble\ is\ requested\r\n\ This\ class\ will\ then\ request\ a\ bubble\ at\ the\ position\ of\ the\ IObservable\ class\ IBehaviour\ that\ called\ the\ update\ method\r\n\r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=RequestBubbleObserver()
+comment1.text=\r\n\ \r\n\ Constructor\ for\ objects\ of\ class\ BubblerObserver\r\n\ \r\n
+comment2.params=e
+comment2.target=RequestBubbleObserver(UserCode.Manager.IEntityListManager)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ BubbleObserver\r\n\ \r\n\ @param\ \ \ e\ \ \ the\ IEntityListManager\ implementation\ this\ class\ will\ use\ to\ add\ a\ bubble\r\n\ \r\n
+comment3.params=obj
+comment3.target=void\ observeObj(IObservable)
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ add\ an\ IObservable\ class\ to\ the\ _subjects\ array\ and\ to\ notify\ the\ IObservable\ that\ this\ class\ should\r\n\ be\ notified\ once\ an\ event\ occurs\r\n\ \r\n\ @param\ \ \ obj\ \ \ the\ IObservable\ this\ class\ should\ 'watch'\ and\ register\ with\ calling\ the\ addObserver\ method\r\n\ \r\n
+comment4.params=obj
+comment4.target=void\ endObserving(IObservable)
+comment4.text=\r\n\ \r\n\ METHOD\:\ used\ to\ stop\ observing\ an\ IObservable\ class\ and\ remove\ it\ from\ the\ _subject\ array\r\n\ \r\n\ @param\ \ \ obj\ \ \ the\ IObservable\ class\ to\ stop\ watching\r\n\ \r\n
+comment5.params=_mPos
+comment5.target=void\ callEntityManager(double[])
+comment5.text=\r\n\ \r\n\ METHOD\:\ used\ to\ call\ the\ IEntityManager\ addEntity\ method\ to\ request\ to\ add\ a\ new\ Bubble\ entity\ to\ the\ world\ at\ the\ x,y\ position\ passed\r\n\ \r\n\ @param\ \ \ _mPos\ \ \ the\ x\ and\ y\ position\ the\ FishFood\ entity\ should\ be\ placed\ at\r\n\ \r\n
+comment6.params=obj
+comment6.target=void\ update(IObservable)
+comment6.text=\r\n\ \r\n\ METHOD\:\ used\ by\ the\ IObservable\ class\ to\ notify\ of\ an\ event.\ This\ method\ will\ then\r\n\ call\ getUpdate()\ method\ of\ IObservable\ to\ retrieve\ the\ IEntity\ position\ and\ pass\ that\ to\ the\ callEntityManager\ method\r\n\ \r\n\ @param\ \ \ obj\ \ \ the\ object\ reference\ that\ has\ an\ update\ event\r\n\ \r\n
+comment7.params=
+comment7.target=java.util.List\ rtnSubjects()
+comment7.text=\r\n\ @Deprecated\r\n\ METHOD\:\ used\ only\ for\ testing\ to\ return\ the\ _subjects\ array\r\n\ \r\n
+numComments=8

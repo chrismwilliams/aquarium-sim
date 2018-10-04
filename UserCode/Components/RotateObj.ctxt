@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=RotateObj
+comment0.text=\r\n\ RotateObj\ class\ defines\ a\ IComponent\ implementation\ which\ changes\ the\ y\ orientation\ of\ an\ IBehaviour\ \r\n\ \r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=RotateObj()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ RotateObj\r\n
+comment2.params=_b
+comment2.target=void\ Initialise(UserCode.Behaviours.IBehaviour)
+comment2.text=\r\n\ \ \r\n\ METHOD\:\ used\ to\ set\ the\ _behaviour\ field\ with\ the\ IBehaviour\ passed.\ This\ method\ will\ then\ assign\ the\ fields\ _rotateX\r\n\ and\ _rotateY,\ taken\ from\ the\ IBehaviour\r\n\ \r\n\ @param\ \ \ _b\ \ \ the\ behaviour\ class\ whose\ image\ will\ be\ rotated\r\n\ \ \r\n
+comment3.params=
+comment3.target=void\ TearDown()
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ set\ the\ _behaviour\ field\ to\ null\ which\ should\ be\ triggered\ to\ end\ opperations\r\n\ \r\n
+comment4.params=
+comment4.target=java.lang.String\ getName()
+comment4.text=\r\n\ GETTER\r\n\ METHOD\:\ used\ to\ return\ the\ name\ of\ this\ component\ which\ is\ held\ in\ the\ _name\ field\r\n\ \r\n\ @return\ \ String\ \ \ the\ name\ of\ this\ component\r\n\ \ \r\n
+comment5.params=
+comment5.target=void\ flipOrientation()
+comment5.text=\r\n\ \r\n\ METHOD\:\ Used\ to\ set\ the\ Y\ Orientation\ of\ the\ image\ to\ the\ oppersite\ by\ calling\ the\ IBehaviour\ setOrientation\ with\ the\ new\ values\r\n\ \r\n
+comment6.params=
+comment6.target=void\ componentAction()
+comment6.text=\r\n\ \r\n\ METHOD\ used\ to\ call\ the\ unique\ method\ this\ component\ adds\ to\ the\ IBehaviour.\ This\ method\ calls\ the\ flipOrientation\ private\ method\r\n\ when\ an\ IBehaviour\ image\ needs\ to\ by\ flipped\ on\ the\ y\ axis\r\n\ \r\n
+comment7.params=
+comment7.target=void\ update()
+comment7.text=\r\n\ \r\n\ METHOD\:\ this\ method\ is\ left\ empty\ as\ the\ component\ is\ primarily\ used\ to\ flip\ the\ IBehaviour\ image\r\n\ \r\n
+numComments=8

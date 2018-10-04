@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=IObserver
+comment0.text=\r\n\ IObserver\ defines\ the\ concrete\ implementation\ of\ a\ class\ that\ observes\ an\ IObservable\ class\ and\ the\ methods\ required\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=obj
+comment1.target=void\ update(IObservable)
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ by\ an\ IObservable\ class\ to\ notify\ an\ IObserver\ that\ an\ event\ occurred\r\n\ \r\n\ @param\ \ \ obj\ \ \ a\ reference\ to\ the\ IObservable\ class\ the\ event\ occurred\ on\r\n\ \r\n
+comment2.params=obj
+comment2.target=void\ observeObj(IObservable)
+comment2.text=\r\n\r\n\ METHOD\:\ used\ to\ pass\ a\ reference\ of\ an\ IObservable\ class\ that\ an\ IObserver\ implementation\ should\ keep\ a\ reference\ of\r\n\r\n\ @param\ \ \ obj\ \ an\ IObservable\ class\ that\ a\ concrete\ implementation\ should\ store\r\n\ \r\n
+comment3.params=obj
+comment3.target=void\ endObserving(IObservable)
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ end\ 'watching'\ an\ IObservable\ class\ and\ remove\ it's\ internal\ reference\r\n\ \r\n\ @param\ \ \ obj\ \ \ an\ IObservable\ class\ that\ a\ concrete\ implementation\ should\ remove\ and\ 'forget'\r\n\ \r\n
+comment4.params=
+comment4.target=java.util.List\ rtnSubjects()
+comment4.text=\r\n\ @Deprecated\r\n\ METHOD\:\ used\ only\ for\ testing\ to\ return\ the\ _subjects\ array\r\n\ \r\n
+numComments=5

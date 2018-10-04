@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=TokenFactoryTest
+comment0.text=\r\n\ The\ test\ class\ TokenFactoryTest\ for\ testing\ the\ production\ class\ TokenFactory.\r\n\ \r\n\ Test\ Conditions\:\r\n\ \r\n\ 1)\ Construction\ (default)\:\ all\ fields\ are\ initialised\ as\ expected\ apart\ from\ the\ _manager\ field,\ done\ via\ the\ object\ bench\r\n\ 2)\ getToken()\:\ test\ the\ method\ returns\ an\ IToken\ with\ the\ correct\ image\ of\ a\ known\ pet\r\n\ 3)\ getToken()\:\ test\ that\ the\ method\ can\ create\ an\ IToken\ with\ a\ image\ path\ provided\ as\ an\ argument\r\n\r\n\ @author\ \ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=TokenFactoryTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ TokenFactoryTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testCondition2()
+comment4.text=\r\n\ \r\n\ getToken()\:\ method\ should\ return\ an\ instance\ of\ IToken\ with\ the\ correct\ image\ \r\n\ \r\n
+comment5.params=
+comment5.target=void\ testCondition3()
+comment5.text=\r\n\ \r\n\ getToken()\:\ method\ should\ return\ an\ IToken\ with\ the\ image\ path\ provided\r\n\ \r\n
+numComments=6

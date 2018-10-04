@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=MoveDiagTest
+comment0.text=\r\n\ The\ test\ class\ MoveDiagTest.\r\n\ \r\n\ Test\ Conditions\r\n\ \r\n\ 1)\ Construction\:\ all\ fields\ are\ initialised\ as\ expected\ and\ checked\ once\ via\ the\ object\ bench\ using\ the\ Initialise\ method\r\n\ 2)\ update()\:\ check\ that\ the\ update\ method\ increments\ both\ the\ x\ and\ y\ position\ of\ the\ IBehaviour\r\n\ 3)\ componentAction()\:\ check\ that\ the\ method\ changes\ both\ _vectors\ and\ the\ x\ and\ y\ position\ is\ reduced\r\n\r\n\ @author\ \ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=MoveDiagTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ MoveDiagTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testCondition2()
+comment4.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 2\:\r\n\ Check\ if\ the\ update\ method\ increments\ the\ x\ &\ y\ position\ of\ the\ IBehaviour\r\n\ \r\n
+comment5.params=
+comment5.target=void\ testCondition3()
+comment5.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 3\:\r\n\ Check\ if\ the\ componentAction\ method\ changes\ the\ vector\ fields\ and\ the\ x\ and\ y\ positions\ of\ the\ IBehaviour\ now\ decrements\r\n\ \r\n
+numComments=6

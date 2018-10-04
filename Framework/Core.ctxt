@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Core
+comment0.text=\n\ Core\ is\ intended\ to\ provide\ the\ core\ functionality\ for\ the\ top-level\ aquarium\ simulation\ class.\n\ Note\ that\ the\ top-level\ simulation\ class\ must\ implement\ the\ simulation\ loop.\n\ \n\ @author\ Marc\ Price\ \n\ @version\ 0.4\n
+comment1.params=
+comment1.target=Core()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Core\n
+comment2.params=
+comment2.target=env3d.Env\ createWorld()
+comment2.text=\n\ METHOD\:\ create\ and\ initialise\ the\ environment\ (aka\ 'world')\n\n\ @return\ \ \ \ \ \ the\ 'world',\ once\ it\ has\ been\ created.\n
+comment3.params=
+comment3.target=void\ destroyWorld()
+comment3.text=\n\ METHOD\:\ destroy\ the\ 3D\ world.\n\ Although\ there\ is\ a\ garbage-collector\ in\ Java,\ the\ world\ has\ to\ be\ destroyed\ with\ 'destroyWorld'\n\ in\ order\ to\ close-down\ your\ simulation-loop\ cleanly.\n\n
+comment4.params=
+comment4.target=void\ updateWorld()
+comment4.text=\n\ Apply\ all\ updates\ to\ the\ environment.\n\ This\ must\ be\ called\ at\ the\ end\ of\ each\ pass\ through\ the\ simulation\ loop.\n\n
+numComments=5

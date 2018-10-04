@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CollisionManagerTest
+comment0.text=\r\n\ The\ test\ class\ CollisionManagerTest\ for\ testing\ the\ CollisionManager\ production\ class.\r\n\r\n\ @author\ \ Chris\ Williams\r\n\ @version\ 3.0\r\n\ \r\n\ Test\ Conditions\r\n\ \r\n\ 1)\ Construction\ (default)\:\ all\ fields\ are\ initialised\ as\ expected\ -\ do\ once\ via\ object\ bench.\r\n\ 2)\ checkEntities()\:\ check\ that\ the\ method\ removes\ a\ pet\ with\ the\ IComponent\ Prey\ class\ if\ it\ is\ near\ a\ pet\ with\ an\r\n\ IComponent\ Preditor\r\n\ 3)\ checkEntities()\:\ check\ that\ the\ method\ doesn't\ remove\ a\ pet\ is\ the\ Preditor\ and\ Prey\ are\ not\ close\r\n\ \r\n
+comment1.params=
+comment1.target=CollisionManagerTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ CollisionManagerTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testCondition2()
+comment4.text=\r\n\ \r\n\ checkEntities()\:\ check\ that\ the\ method\ doesn't\ remove\ a\ pet\ is\ the\ Preditor\ and\ Prey\ are\ not\ close\r\n\ \r\n
+comment5.params=
+comment5.target=void\ testCondition3()
+comment5.text=\r\n\ \r\n\ checkEntities()\:\ check\ that\ the\ method\ removes\ a\ pet\ with\ the\ IComponent\ Prey\ class\ if\ a\ pet\ with\ an\r\n\ IComponent\ Preditor\ is\ placed\ next\ to\ it\r\n\ \r\n
+numComments=6

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=EntityCreatorFactoryTest
+comment0.text=\r\n\ The\ test\ class\ EntityCreatorFactoryTest,\ used\ to\ test\ the\ EntitiyCreatorFactory.\ Testing\ with\ the\ default\ constructor\r\n\ as\ the\ overloaded\ constructor\ requires\ the\ EntityManager\ class\ as\ a\ dependancy\r\n\r\n\ @author\ \ Chris\ Williams\ &\ Marc\ Price\r\n\ @version\ 1.5\r\n\ \r\n\ Test\ Conditions\:\r\n\ \r\n\ 1\:\ Construction\ (default)\:\ all\ fields\ are\ initialised\ as\ expected\ apart\ from\ the\ _manager\ field,\ done\ via\ the\ object\ bench\r\n\ 2\:\ getEntity()\:\ does\ the\ method\ return\ a\ null\ instance\ after\ passing\ a\ pet\ name\ that\ doesn't\ exist\r\n\ 3\:\ getEntity()\:\ does\ the\ method\ return\ an\ IEntity\ type\ after\ requesting\ a\ pet\ that\ exists\r\n\ 4\:\ getEntity()\:\ check\ if\ the\ method\ creates\ an\ IEntity\ of\ type\ FishFood\ at\ the\ coords\ passed\r\n\ \r\n
+comment1.params=
+comment1.target=EntityCreatorFactoryTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ EntityCreatorFactoryTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testCondition2()
+comment4.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 2\:\r\n\ getEntity()\ method\ returns\ null\ if\ the\ param\ _type\ is\ set\ to\ a\ pet\ that\ doesn't\ exist.\ Used\ by\ the\ method\ getNewEntity\ in\ EntityManager\ when\r\n\ deciding\ to\ add\ the\ return\ to\ the\ _entities\ array\ and\ the\ world\ to\ avoid\ a\ null\ exception\r\n\ \r\n
+comment5.params=
+comment5.target=void\ testCondition3()
+comment5.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 3\:\r\n\ getEntity()\ method\ returns\ an\ IEntity\ consisting\ of\ a\ _token\ and\ a\ correct\ _behaviour\r\n\ \r\n
+comment6.params=
+comment6.target=void\ testCondition4()
+comment6.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 4\:\r\n\ getEntity()\ method\ should\ use\ the\ param's\ passed\ to\ place\ the\ class\ FishFood\ with\ the\ x\ and\ y\ passed\r\n\ \r\n
+numComments=7

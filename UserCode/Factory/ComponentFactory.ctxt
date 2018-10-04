@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=ComponentFactory
+comment0.text=\r\n\ ComponentFactory\ defines\ the\ behaviour\ of\ the\ concrete\ implementation\ of\ the\ IComponentFactory\ interface.\ This\ factory\r\n\ creates\ and\ returns\ IComponents\ based\ on\ the\ String\ value\ passed\ to\ the\ method\ getComponent.\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=ComponentFactory()
+comment1.text=\r\n\ @Deprecated\r\n\ Constructor\ for\ objects\ of\ class\ ComponentFactory,\ used\ only\ for\ testing\r\n\ \r\n
+comment2.params=bubbleRequestObserver
+comment2.target=ComponentFactory(UserCode.Behaviours.IObserver)
+comment2.text=\r\n\ Constructor\ for\ objects\ of\ class\ ComponentFactory\r\n\ \r\n\ @param\ \ \ bubbleRequestObserver\ \ \ the\ IObserver\ class\ which\ all\ IObservable\ RequestBubble\ classes\ will\ notify\ when\ a\ bubble\r\n\ has\ been\ requested\r\n\ \r\n
+comment3.params=_name
+comment3.target=UserCode.Components.IComponent\ getComponent(java.lang.String)
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ create\ the\ IComponents\ based\ on\ the\ String\ value\ passed.\ All\ instances\ of\ RequestBubble\ IComponents\ will\r\n\ be\ attached\ to\ the\ IObserver\ _bubbleObserver\ field\r\n\ \r\n\ @param\ \ \ _name\ \ \ the\ name\ of\ the\ component\ required\r\n\ \r\n\ @return\ \ an\ instance\ of\ IComponent\ based\ on\ the\ param\ field\r\n\ \r\n
+comment4.params=_c
+comment4.target=java.util.List\ getComponent(java.lang.String[])
+comment4.text=\r\n\ \r\n\ METHOD\:\ used\ to\ return\ a\ List\ of\ all\ the\ components\ required,\ based\ on\ the\ array\ of\ Strings\ provided\r\n\ \r\n\ @param\ \ \ _c\ \ \ an\ array\ of\ Strings\ corresponding\ to\ the\ IComponents\ required\r\n\ \r\n\ @return\ \ List\ \ \ an\ array\ of\ all\ the\ IComponents\ requested\r\n\ \r\n
+numComments=5

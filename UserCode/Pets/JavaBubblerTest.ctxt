@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=JavaBubblerTest
+comment0.text=\r\n\ The\ test\ class\ JavaBubblerTest\ for\ testing\ the\ JavaBubbler\ production\ class.\r\n\r\n\ @author\ \ Chris\ Williams\ &\ Marc\ Price\r\n\ @version\ 3.0\r\n\ \r\n\ Test\ Conditions\:\r\n\ \r\n\ 1\:\ Construction\:\ all\ fields\ are\ initialised\ as\ expected\ and\ checked\ via\ the\ object\ bench\r\n\ 2\:\ Construction\:\ check\ that\ the\ inherited\ setOrientation\ sets\ the\ orientation\ to\ 90,90,0\r\n\ \r\n
+comment1.params=
+comment1.target=JavaBubblerTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ JavaBubblerTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testCondition2()
+comment4.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 2\:\r\n\ Check\ if\ the\ super\ class\ setOrientation\ sets\ the\ fields\ correctly\ within\ the\ token\r\n\ The\ X\ and\ Y\ orientation\ should\ be\ set\ as\ 90\ in\ token\r\n\ The\ Z\ orientation\ should\ be\ 0\ in\ token\r\n\ \r\n
+numComments=5

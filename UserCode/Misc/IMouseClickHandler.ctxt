@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IMouseClickHandler
+comment0.text=\r\n\ IMouseClickHandler\ defines\ an\ extended\ interface\ for\ an\ 'Observable'\ mouse\ handler.\ This\ interface\ adds\ a\r\n\ checkMouse()\ method\ to\ the\ IObservable\ interface\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=void\ checkMouse()
+comment1.text=\r\n\ \r\n\ METHOD\:\ this\ method\ is\ used\ to\ check\ if\ the\ mouse\ has\ been\ clicked.\ If\ it\ has\ then\ notify\ an\ Observer\ and\ pass\ on\ the\ x\ and\ y\r\n\ values\ using\ the\ IObservable\ method\ getUpdate()\r\n\ \r\n
+comment2.params=
+comment2.target=env3d.Env\ getWorldRef()
+comment2.text=\r\n\ \r\n\ @Deprecated\r\n\ GETTER\r\n\ METHOD\:\ used\ for\ testing\ purposes\ to\ return\ the\ Env\ reference\ a\ concrete\ implementation\ requires\ to\ check\ if\ the\ Env\ has\ been\ click\ on\r\n\ \r\n
+numComments=3

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=JavaSeaHorseTest
+comment0.text=\r\n\ The\ test\ class\ JavaSeaHorseTest\ for\ testing\ the\ JavaSeaHorse\ production\ class.\r\n\r\n\ @author\ \ Chris\ Williams\ &\ Marc\ Price\r\n\ @version\ 3.0\r\n\ \r\n\ Test\ Conditions\:\r\n\ \r\n\ 1\:\ Construction\:\ all\ feidls\ are\ initialised\ as\ expected\ and\ checked\ once\ via\ the\ object\ bench\r\n\ 2\:\ Construction\:\ check\ that\ the\ setOrientation\ method\ sets\ the\ orientation\ of\ the\ pet\ to\ 180,90,0\r\n\ 3\:\ Construction\:\ check\ that\ the\ inherited\ setStartPosition("top")\ sets\ a\ position\ on\ the\ y\ axis\ between\ 2.0\ -\ 6.8\ \r\n\ \r\n
+comment1.params=
+comment1.target=JavaSeaHorseTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ JavaSeaHorseTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testCondition2()
+comment4.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 2\:\r\n\ Check\ if\ the\ setOrientation\ method\ sets\ the\ fields\ correctly\ within\ the\ token\ created\r\n\ The\ X\ orientation\ should\ be\ set\ to\ 180\r\n\ and\ Y\ orientation\ should\ be\ set\ to\ 90\ \r\n\ The\ Y\ orientation\ should\ be\ set\ as\ 0\ all\ in\ token\r\n\ \r\n
+comment5.params=
+comment5.target=void\ testCondition3()
+comment5.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 3\:\r\n\ setStartPosition("top")\:\ Check\ that\ the\ inherited\ method\ sets\ a\ position\ on\ the\ y\ axis\ between\ 2.0\ -\ 6.8\r\n\ \r\n
+numComments=6

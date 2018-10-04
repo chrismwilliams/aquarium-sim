@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Screen
+comment0.text=\r\n\ Enumeration\ class\ Screen\ -\ Sets\ the\ constant\ values\ of\ the\ screen\ x\ and\ y\ boundaries\r\n\ \r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=v
+comment1.target=Screen(double)
+comment1.text=\r\n\ \r\n\ Constructor\ for\ Enum\ class\ Screen\r\n\ \r\n\ @param\ \ \ v\ \ \ the\ value\ to\ be\ set\r\n\ \r\n
+comment2.params=
+comment2.target=double\ getValue()
+comment2.text=\r\n\ \r\n\ METHOD\:\ Return\ the\ value\ to\ caller\r\n\ \r\n\ @return\ \ returns\ the\ double\ held\ in\ the\ _value\ field\ set\ to\ the\ constants\ set\ in\ the\ fields\r\n\ \r\n
+numComments=3

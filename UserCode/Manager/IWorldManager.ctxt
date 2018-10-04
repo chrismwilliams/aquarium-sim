@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=IWorldManager
+comment0.text=\r\n\ IWorldManager\ defines\ the\ behaviour\ of\ a\ concrete\ class\ that\ should\ be\ able\ to\ add\ and\ remove\ instances\ of\ \r\n\ IToken's\ from\ the\ world\r\n\r\n\ @author\ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=t
+comment1.target=void\ addToken(UserCode.Pets.IToken)
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ to\ add\ an\ IToken\ to\ the\ aquarium\r\n\ \r\n\ @param\ \ \ token\ -\ IToken\ to\ be\ added\ to\ the\ simulation\r\n\ \r\n
+comment2.params=t
+comment2.target=void\ removeToken(UserCode.Pets.IToken)
+comment2.text=\r\n\ \r\n\ METHOD\:\ used\ to\ remove\ the\ IToken\ from\ the\ aquarium\r\n\ \r\n\ @param\ \ \ t\ \ \ the\ IToken\ to\ be\ removed\ from\ the\ simulation\r\n\ \r\n
+numComments=3

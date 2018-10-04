@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=_token
+comment0.target=JavaBubbler(Token)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ JavaBubbler\r\n\ \r\n\ @param\ \ \ _token\ \ \ the\ token\ of\ the\ Bubbler\ that\ contains\ its\ texture\r\n\ \r\n
+comment1.params=
+comment1.target=void\ generateBubble()
+comment1.text=\r\n\ \r\n\ METHOD\:\ used\ to\ ask\ the\ EntityManager\ for\ a\ new\ bubble\ every\ 3\ seconds.\ This\ method\ updates\ the\ requireManager\r\n\ field\ to\ true\ which\ the\ EntityManager\ checks\r\n\ \r\n
+comment2.params=
+comment2.target=void\ run()
+comment3.params=
+comment3.target=void\ update()
+comment3.text=\r\n\ @Override\r\n\ METHOD\:\ used\ to\ override\ the\ behaviour\ base\ class\ as\ the\ bubbler\ doesn't\ update\ its\ positional\ properties\r\n\ \r\n
+numComments=4

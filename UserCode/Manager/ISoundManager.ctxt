@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ISoundManager
+comment0.text=\r\n\ ISoundManager\ defines\ the\ behaviour\ a\ concrete\ implementation\ should\ place\ an\ audio\ file\ for\ an\ Env\ world\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=_audio
+comment1.target=void\ playSound(java.lang.String)
+comment1.text=\r\n\ METHOD\:\ used\ to\ play\ the\ sound\ passed.\ Throws\ an\ ArgumentPathDoesNotExist\ is\ the\ filepath\ to\ the\ audio\ cannot\ be\ found\r\n\ \r\n\ @param\ \ _audio\ \ \ the\ url\ string\ of\ the\ audio's\ location\r\n
+numComments=2

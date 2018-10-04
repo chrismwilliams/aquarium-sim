@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=setIntervalTest
+comment0.text=\r\n\ The\ test\ class\ setIntervalTest\ to\ test\ the\ production\ class\ setInterval\r\n\ \r\n\ Test\ Conditions\r\n\ \r\n\ 1)\ Construction\:\ all\ fields\ are\ initialised\ as\ expected\ and\ checked\ once\ via\ the\ object\ bench\ using\ the\ Initialise\ method\r\n\ 2)\ Test\ that\ the\ executor\ field\ is\ assigned\ correctly\ after\ calling\ the\ generateRequest\ method\r\n\ 3)\ Test\ that\ the\ _runnable\ field\ is\ assigned\ correctly\ after\ calling\ the\ generateRequest\ method\r\n\ 4)\ stopRequest()\:\ Test\ that\ both\ executor\ and\ _runnable\ fields\ are\ assigned\ to\ null\ after\ a\ generateRequest\ is\ called,\ followed\ by\ stopRequest\r\n\r\n\ @author\ \ Chris\ Williams\r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=setIntervalTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ setIntervalTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testCondition2()
+comment4.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 2\:\r\n\ Test\ if\ the\ executor\ field\ is\ assigned\ correctly\ after\ calling\ the\ generateRequest\ method\r\n\ \r\n
+comment5.params=
+comment5.target=void\ testCondition3()
+comment5.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 3\:\r\n\ Test\ if\ the\ _runnable\ field\ is\ assigned\ correctly\ after\ calling\ the\ generateRequest\ method\r\n\ \r\n
+comment6.params=
+comment6.target=void\ testCondition4()
+comment6.text=\r\n\ \r\n\ METHOD\:\ Test\ condition\ 4\:\r\n\ Test\ both\ executor\ and\ _runnable\ fields\ are\ null\ after\ a\ generateRequest\ is\ called,\ followed\ by\ stopRequest\r\n\ \r\n
+numComments=7

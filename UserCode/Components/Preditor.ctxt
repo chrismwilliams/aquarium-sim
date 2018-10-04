@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Preditor
+comment0.text=\r\n\ Preditor\ defines\ the\ behaviour\ of\ a\ components\ that\ a\ pet\ should\ include\ if\ it\ is\ defined\ as\ a\ preditor.\ This\ component\ will\r\n\ increase\ the\ size\ of\ the\ IBehaviour\ once\ its\ componentAction\ method\ is\ called.\r\n\ \r\n\ @author\ Chris\ Williams\ \r\n\ @version\ 3.0\r\n
+comment1.params=
+comment1.target=Preditor()
+comment1.text=\r\n\ \r\n\ Constructor\ for\ objects\ of\ class\ Preditor\r\n\ \r\n
+comment2.params=_b
+comment2.target=void\ Initialise(UserCode.Behaviours.IBehaviour)
+comment2.text=\r\n\ \r\n\ METHOD\:\ to\ be\ used\ to\ assign\ the\ _behaviour\ field\ with\ the\ param\ passed\r\n\ \r\n\ @param\ \ \ _b\ \ \ the\ IBehaviour\ this\ class\ will\ use\r\n\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ \r\n\ METHOD\:\ used\ to\ return\ the\ name\ of\ the\ name\ of\ this\ component\ held\ in\ the\ _name\ field\r\n\ \r\n\ @return\ \ a\ String\ held\ in\ the\ _name\ field\r\n\ \r\n
+comment4.params=
+comment4.target=void\ TearDown()
+comment4.text=\r\n\ \r\n\ METHOD\:\ used\ to\ set\ the\ _behaviour\ field\ to\ null\r\n\ \r\n
+comment5.params=
+comment5.target=void\ feed()
+comment5.text=\r\n\ \r\n\ METHOD\:\ used\ to\ increase\ the\ size\ of\ the\ preditor\ once\ this\ method\ is\ called.\ This\ method\ calls\ the\ _feed\ IComponent\r\n\ componentAction\ method\ increment\ the\ scale\ of\ the\ image\r\n\ \r\n
+comment6.params=
+comment6.target=void\ componentAction()
+comment6.text=\r\n\ \r\n\ METHOD\ used\ to\ call\ the\ unique\ method\ this\ component\ adds\ to\ the\ IBehaviour.\ This\ method\ calls\ the\ feed\ private\ method\r\n\ when\ an\ IBehaviour\ is\ required\ to\ increase\ in\ scale\r\n\ \r\n
+comment7.params=
+comment7.target=void\ update()
+comment7.text=\r\n\ \r\n\ METHOD\:\ this\ method\ is\ left\ empty\ as\ the\ component\ is\ primarily\ used\ by\ a\ preditor\ to\ increment\ the\ scale\r\n\ \r\n
+numComments=8

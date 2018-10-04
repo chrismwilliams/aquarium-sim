@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=WorldManagerTest
+comment0.text=\r\n\ The\ test\ class\ WorldManagerTest\ for\ testing\ the\ production\ class\ WorldManager.\r\n\r\n\ @author\ \ Chris\ Williams\r\n\ @version\ 3.0\r\n\ \r\n\ Test\ Conditions\:\r\n\ \r\n\ 1)\ Construction\ (default)\:\ all\ fields\ are\ initialised\ as\ expected\ -\ do\ once\ via\ object\ bench.\r\n\ 2)\ addToken()\:\ check\ that\ the\ method\ adds\ an\ object\ to\ the\ _world\r\n\ 3)\ removeToken()\:\ check\ that\ the\ method\ removes\ an\ object\ from\ the\ _world\r\n\ \r\n
+comment1.params=
+comment1.target=WorldManagerTest()
+comment1.text=\r\n\ Default\ constructor\ for\ test\ class\ WorldManagerTest\r\n
+comment2.params=
+comment2.target=void\ setUp()
+comment2.text=\r\n\ Sets\ up\ the\ test\ fixture.\r\n\r\n\ Called\ before\ every\ test\ case\ method.\r\n
+comment3.params=
+comment3.target=void\ tearDown()
+comment3.text=\r\n\ Tears\ down\ the\ test\ fixture.\r\n\r\n\ Called\ after\ every\ test\ case\ method.\r\n
+comment4.params=
+comment4.target=void\ testCondition2()
+comment4.text=\r\n\ \r\n\ addToken()\:\ check\ that\ the\ method\ adds\ an\ object\ to\ the\ _world\r\n\ \r\n
+comment5.params=
+comment5.target=void\ testCondition3()
+comment5.text=\r\n\ \r\n\ removeToken()\:\ check\ that\ the\ method\ removes\ an\ object\ from\ the\ _world\r\n\ \r\n
+numComments=6
